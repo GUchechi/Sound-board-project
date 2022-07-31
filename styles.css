@@ -16,3 +16,23 @@ body {
   overflow: hidden;
   margin: 0;
 }
+
+.btn {
+    background-color: rebeccapurple;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    margin: 1rem;
+    padding: 1.5rem 3rem;
+    font-size: 1.3rem;
+    font-family: inherit;
+}
+
+.btn :focus {
+    outline: none;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
